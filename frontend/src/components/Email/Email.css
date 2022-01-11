@@ -1,7 +1,7 @@
 .email__wrap {
     position: fixed;
     bottom: 0;
-    right:3vw;
+    right:-2vw;
 }
 
 .email {
@@ -12,9 +12,17 @@
     -webkit-transform: rotate(90deg);
     -webkit-transform-origin:right, top;
     margin-bottom: 17vh;
-    
+    position: relative;
+    bottom: 0;
     color: #36c275;
+    transition: all 0.2s;
+    margin-top: 20px;
     /* font-size: 1.5vw; */
+}
+
+.email:hover {
+    bottom: 1vh;
+    
 }
 
 .email a {

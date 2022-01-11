@@ -1,0 +1,49 @@
+.intro__wrap {
+    width:70%;
+    margin: 8% auto 0 auto;
+    text-align: center;
+}
+
+.intro-line-1 {
+    color: #36c275;
+    letter-spacing: 0.5px;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.intro-line-2 {
+    color: #DCE1DE;
+    font-weight: bolder;
+    font-size: 6vw;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+
+.intro-line-3 {
+    color: #DCE1DE88;
+    font-weight: bolder;
+    font-size: 3vw;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+
+.intro-line-3 span {
+    color: #36c275;
+    border-bottom: solid #36c275 8px;
+    padding-bottom: 0.7%;
+}
+
+.intro-line-4 {
+    color: #DCE1DE;
+    font-weight: bolder;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    line-height: 170%;
+    width: 80%;
+    margin: 4% auto 0 auto;
+}
+
+.resume {
+    text-decoration: none;
+    cursor: pointer;
+}
