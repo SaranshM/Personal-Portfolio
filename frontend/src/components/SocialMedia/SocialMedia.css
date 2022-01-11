@@ -1,0 +1,27 @@
+.social-media {
+    position: fixed;
+    bottom: 0;
+    left:3vw;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    margin-bottom: 1vh;
+    position: relative;
+    left: 0;
+    transition: all 0.2s;
+    padding: 10px;
+}
+
+.icon:hover {
+    left: 0.3vh;
+    border-left: 2px solid #36c275;
+}
+
+.line {
+    width:3px;
+    height: 150px;
+    background-color: #DCE1DE88;
+    margin: 0 auto;
+}

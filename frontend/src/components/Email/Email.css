@@ -1,0 +1,32 @@
+.email__wrap {
+    position: fixed;
+    bottom: 0;
+    right:3vw;
+}
+
+.email {
+    transform: rotate(90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin:right, top;
+    margin-bottom: 17vh;
+    
+    color: #36c275;
+    /* font-size: 1.5vw; */
+}
+
+.email a {
+    text-decoration: none;
+    color: #36c275;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.line {
+    width:3px;
+    height: 150px;
+    background-color: #DCE1DE88;
+    margin: 0 auto;
+}
