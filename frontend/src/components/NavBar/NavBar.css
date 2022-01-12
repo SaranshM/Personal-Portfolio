@@ -5,6 +5,9 @@
     padding-left: 3%;
     padding-right: 3%;
     box-shadow: 0 0 20px #000;
+    position: fixed;
+    top:0;
+    width:100%;
 }
 
 .nav-bar__links {

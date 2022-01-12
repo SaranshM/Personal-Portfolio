@@ -1,6 +1,6 @@
 .about__wrap {
     width: 70%;
-    margin: 7% auto 0 auto;
+    margin: 9% auto 0 auto;
 }
 
 .about-header {
@@ -30,7 +30,6 @@
 
 .about-body {
     display: flex;
-    margin-top: 3%;
     justify-content: space-between;
 }
 
@@ -42,25 +41,26 @@
     margin-left:9%;
     border-radius: 3px;
     border: solid #36c275 3px;
-    /* box-shadow: 0 0 5px #36c275,0 0 10px #36c275,0 0 20px #36c275,0 0 100px #36c275; */
     width: 25vw;
-    height: 27vw;
-    margin-top:8%;
+    /* height: 27vw; */
+    margin-top:0%;
 }
 
 .about-box {
+    /* display: inline-flex; */
     width: 25vw;
-    height: 27vw;
+    height: 28.5vw;
     border: solid #36c275 3px;
-    position: relative;
-    top: -42%;
-    left: 18%;
+    position: absolute;
+    margin-top: -27%;
+    margin-left: 5%;
     z-index: -1;
-    margin-top:8%;
+    /* margin-top:8%; */
 
 }
 
 .about-text {
+    margin-top: 2%;
     flex: 6;
 }
 

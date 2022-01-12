@@ -1,5 +1,6 @@
 0e212c - gun metal (v dark blue)
 #36c275 - ocean green
 040303 - rich black
+#DCE1DE - light white
 
 font-family: 'Manrope', sans-serif;

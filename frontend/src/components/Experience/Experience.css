@@ -1,0 +1,118 @@
+.exp__wrap {
+    width: 60%;
+    margin: 9% auto 0 auto;
+    margin-right: 20%;
+}
+
+.exp-header {
+    display: flex;
+    align-items: center;
+}
+
+.exp-header-1 {
+    color: #36c275;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.exp-header-2 {
+    font-size: 1.7vw;
+    color: #DCE1DE;
+    letter-spacing: 3px;
+}
+
+.exp-line {
+    width:15vw;
+    margin-left: 5%;
+    height: 1.5px;
+    border: none;
+    background-color: #DCE1DEcc;
+}
+
+.exp-companies {
+    flex: 1;
+}
+
+.exp-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.exp-company {
+    border-left: solid 4px #DCE1DE55;
+    padding: 3%;
+    padding-top:5%;
+    padding-bottom: 5%;
+    transition: border-left 0.3s;
+    cursor: pointer;
+}
+
+.exp-company.current {
+    border-left: solid 4px #36c275;
+    padding: 3%;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+
+.exp-company-text {
+    color: #DCE1DE55;
+    font-size: 1vw;
+    text-align: center; 
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    transition: font-size 0.1s, color 0.3s;
+}
+
+.exp-company-text.currentText {
+    color: #36c275;
+    font-size: 1.2vw;
+    text-align: center; 
+}
+
+.exp-details {
+    flex: 4;
+    margin-left: 7%;
+}
+
+.exp-details-1 {
+    font-size: 1.2vw;
+    letter-spacing: 0.8px;
+    color: #DCE1DE;
+}
+
+.exp-details-2 {
+    font-size: 1.2vw;
+    letter-spacing: 0.8px;
+    color: #DCE1DEcc;
+    margin-top: 2%;
+}
+
+.exp-details-1-1 {
+    color: #36c275;
+    font-weight: bold;
+}
+
+.exp-bullets {
+    margin-left: 2%;
+    margin-top: 2%;
+    list-style: none;
+}
+
+.exp-point {
+    color: #DCE1DEcc;
+    font-size: 1.2vw;
+    letter-spacing: 0.8px;
+    margin-top: 1%;
+    list-style: none;
+    line-height: 134%;
+}
+
+.exp-point::before {
+    content: "\2022";
+    color: #36c275;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }

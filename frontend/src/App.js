@@ -6,6 +6,8 @@ import Introduction from './components/Introduction/Introduction';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 import Email from './components/Email/Email';
 import About from './components/About/About';
+import Experience from './components/Experience/Experience';
+import Projects from './components/Projects/Projects';
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
           <SocialMedia></SocialMedia>
           <Email></Email>
           <About></About>
+          <Experience></Experience>
+          <Projects></Projects>
         </React.Fragment>
       )}
     </div>
