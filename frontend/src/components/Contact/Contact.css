@@ -1,0 +1,51 @@
+.contact__wrap {
+    width: 70%;
+    margin: 9% auto 0 auto;
+    text-align: center;
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -5%;
+    margin-bottom: 2%;
+}
+
+.contact-header-1 {
+    color: #DCE1DE;
+    font-weight: bold;
+    font-size: 1.7vw;
+}
+
+.contact-header-2 {
+    font-size: 1.7vw;
+    color: #36c275;
+    letter-spacing: 3px;
+}
+
+.contact-line {
+    width:15vw;
+    margin-left: 5%;
+    height: 1.5px;
+    border: none;
+    background-color: #DCE1DEcc;
+}
+
+.contact-line.first {
+    margin-right: 5%;
+}
+
+.contact-content-1 {
+    font-size: 4vw;
+    color: #DCE1DE;
+    letter-spacing: 3px;
+    margin-bottom: 2%;
+}
+
+.contact-content-2 {
+    font-size: 1.3vw;
+    color: #DCE1DEcc;
+    letter-spacing: 3px;
+    margin-bottom: 2%;
+}

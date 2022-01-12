@@ -1,0 +1,22 @@
+.footer__wrap {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.footer__wrap a {
+    text-decoration: none;
+}
+
+.footer-content-1 {
+    font-size: 1vw;
+    color: #DCE1DEcc;
+    letter-spacing: 1.5px;
+    transition: all 0.2s;
+}
+
+.footer-content-1:hover {
+    font-size: 1vw;
+    color: #36c275;
+    letter-spacing: 1.5px;
+}

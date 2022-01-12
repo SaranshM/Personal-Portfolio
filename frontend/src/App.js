@@ -8,6 +8,9 @@ import Email from './components/Email/Email';
 import About from './components/About/About';
 import Experience from './components/Experience/Experience';
 import Projects from './components/Projects/Projects';
+import OtherProjects from './components/OtherProjects/OtherProjects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -26,6 +29,9 @@ function App() {
           <About></About>
           <Experience></Experience>
           <Projects></Projects>
+          <OtherProjects></OtherProjects>
+          <Contact></Contact>
+          <Footer></Footer>
         </React.Fragment>
       )}
     </div>
