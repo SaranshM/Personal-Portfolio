@@ -77,3 +77,28 @@
         top: 3vh;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .intro__wrap {
+        width: 80%;
+        margin-top: 25%;
+    }
+
+    .intro-line-1 {
+        font-size: 3vw;
+    }
+
+    .intro-line-2 {
+        font-size: 11vw; 
+    }
+
+    .intro-line-3 {
+        font-size: 7vw;
+    }
+
+    .intro-line-4 {
+        font-size: 3vw;
+        width: 90%;
+        margin: 7% auto 0 auto;
+    }
+}

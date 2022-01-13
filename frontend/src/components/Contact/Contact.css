@@ -13,14 +13,14 @@
 }
 
 .contact-header-1 {
-    color: #DCE1DE;
+    color: #36c275;
     font-weight: bold;
     font-size: 1.7vw;
 }
 
 .contact-header-2 {
     font-size: 1.7vw;
-    color: #36c275;
+    color: #DCE1DE;
     letter-spacing: 3px;
 }
 
@@ -58,5 +58,42 @@
 
     .contact-content-1 {
         font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .contact__wrap {
+        width: 80%;
+        margin-top: 20%;
+    }
+
+    .contact-content-1 {
+        font-size: 6vw;
+    }
+
+    .contact-header-1 {
+        color: #36c275;
+        font-weight: bold;
+        font-size: 3.5vw;
+    }
+    
+    .contact-header-2 {
+        font-size: 3.5vw;
+        color: #DCE1DE;
+        letter-spacing: 3px;
+    }
+
+    .contact-content-1 {
+        font-size: 7vw;
+        color: #DCE1DE;
+        letter-spacing: 3px;
+        margin-bottom: 2%;
+    }
+    
+    .contact-content-2 {
+        font-size: 2.5vw;
+        color: #DCE1DEcc;
+        letter-spacing: 3px;
+        margin-bottom: 2%;
     }
 }

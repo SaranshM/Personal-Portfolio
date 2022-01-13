@@ -153,3 +153,79 @@
         margin-top: 6%;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .exp__wrap {
+        margin-top: 18%;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .exp__wrap {
+        width: 90%;
+        margin-top: 27%;
+        margin: 30% auto 0 auto;
+    }
+
+    .exp-body {
+        display: block;
+    }
+
+    .exp-header-1, .exp-header-2 {
+        font-size: 3.5vw;
+    }
+
+    .exp-companies {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4%;
+    }
+
+    .exp-company {
+        border-bottom: solid 4px #DCE1DE55;
+        border-left: none;
+        transition: border-bottom 0.3s;
+        cursor: pointer;
+        height: 0vh;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }
+
+    .exp-company.current {
+        border-bottom: solid 4px #36c275;
+        border-left: none;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 0%;
+        padding-bottom: 5%;
+
+    }
+
+    .exp-company-text {
+        font-size: 2vw;
+    }
+    
+    .exp-company-text.currentText {
+        font-size: 2.7vw;
+    }
+
+    .exp-details {
+        margin: 0 auto;
+        width:85%;
+    }
+
+    .exp-details-1, .exp-details-2, .exp-point {
+        font-size: 2.5vw;
+    }
+
+    .exp-point {
+        margin-bottom: 5%;
+    }
+
+    .exp-bullets {
+        margin-left: 5%;
+    }
+}

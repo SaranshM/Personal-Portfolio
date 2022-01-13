@@ -19,7 +19,7 @@ const Contact = () => {
             <h1 className = "contact-content-1">Get In Touch</h1>
             <h1 className = "contact-content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
             <a href = "mailto:saranshmehta96@gmail.com">
-                <Button width = "15%" padding = "1%" fontSize = "1.2vw">Say Hello</Button>
+                <Button width = {window.innerWidth > 550 ? "15%" : "30%"} padding = {window.innerWidth > 550 ? "1%" : "3%"} fontSize = {window.innerWidth > 550 ? "1.2vw" : "2vw"}>Say Hello</Button>
             </a>
         </div>
     )

@@ -17,7 +17,7 @@ const Projects = () => {
             </div>
             <div className = "projects-body">
                 {ProjectsData.map((obj) => {
-                    return obj.id % 2 == 0 ? (
+                    return obj.id % 2 == 0 || window.innerWidth <= 550 ? (
                         <div className = "project-1">
                             <div className = "project-1-image">
                                     <img src = {obj.projectImage} className = "project-1-img"/>  

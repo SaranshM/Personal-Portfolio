@@ -121,3 +121,50 @@
         transform: scale(0.8);
     }
 }
+
+@media screen and (max-width: 900px) {
+    .other-projects-card {
+        height: 28vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cards-header-icon {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .other-projects-header {
+        font-size: 3.5vw;
+    }
+
+    .other-projects-card-link {
+        text-decoration: none;
+        width: 60%;
+    }
+    
+    .other-projects-card {
+        padding: 8%;
+        border-radius: 6px;
+        height: 47vw;
+        margin: 2%;
+        background-color: #0e3044;
+        position: relative;
+        top: 0;
+        transition: all 0.2s;
+    }
+
+    .other-projects-content-1 {
+        font-size: 2.5vw;
+    }
+
+    .other-projects-content-2 {
+        font-size: 2vw;
+    }
+
+    .other-projects-content-3-text {
+        font-size: 2vw;
+    }
+}
