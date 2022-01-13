@@ -15,10 +15,11 @@ import Footer from './components/Footer/Footer';
 function App() {
 
   const [loader, setLoader] = useState(false)
+  const [hamburger, setHamburger] = useState(false)
 
   return (
     <div className="App">
-      {loader ? (
+      {loader? (
         <Loader>Loading</Loader>
       ):(
         <React.Fragment>

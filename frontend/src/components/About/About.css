@@ -86,3 +86,35 @@
     font-size: 1.2vw;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width: 1100px) {
+    .about__wrap {
+        width: 80%;
+        margin-top: 16%;
+        margin-right: 7%;
+    }
+
+    .about-header-1, .about-header-2 {
+        font-size: 2.5vw;
+    }
+
+    .about-text {
+        margin-top: 4%;
+    }
+
+    .about-para {
+        font-size: 1.3vw;
+    }
+
+    .about-table {
+        margin-top: 4%;
+    }
+
+    .lang-cell {
+        align-items: center;
+    }
+
+    .about-image {
+        margin-top: 6%;
+    }
+}

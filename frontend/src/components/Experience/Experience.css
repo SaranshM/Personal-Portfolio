@@ -116,3 +116,40 @@
     width: 1em;
     margin-left: -1em;
   }
+
+@media screen and (max-width: 1100px) {
+    .exp__wrap {
+        width: 60%;
+        margin-top: 13%;
+    }
+
+    .exp-header-1, .exp-header-2 {
+        font-size: 2.5vw;
+    }
+
+    .exp-body {
+        margin-top: 6%;
+    }
+
+    .exp-company-text.currentText {
+        font-size: 1.7vw;
+    }
+
+    .exp-company-text {
+        font-size: 1.4vw;
+    }
+
+    .exp-company, .exp-company.current {
+        padding-left: 6%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+    .exp-details-1, .exp-details-2, .exp-point {
+        font-size: 1.5vw;
+    }
+
+    .exp-details-2, .exp-bullets {
+        margin-top: 6%;
+    }
+}

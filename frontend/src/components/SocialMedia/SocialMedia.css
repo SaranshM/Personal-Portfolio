@@ -25,3 +25,19 @@
     background-color: #DCE1DE88;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1100px) {
+    .social-media {
+        left: 1vw;
+    }
+
+    .icon img {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .social-media {
+        display: none;
+    }
+}
