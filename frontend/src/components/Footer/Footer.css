@@ -35,3 +35,25 @@
         margin-bottom: 1.5%;
     }
 }
+
+@media screen and (max-width: 550px) {
+
+    .footer-icon img {
+        transform: scale(0.6);
+        margin-bottom: 1.5%;
+    }
+    
+    .footer-content-1 {
+        font-size: 1.8vw;
+    }
+
+    .footer__wrap {
+        margin-top: 18%;
+    } 
+}
+
+@media screen and (max-width: 375px) {
+    .footer-content-1 {
+        font-size: 2.6vw;
+    }
+}

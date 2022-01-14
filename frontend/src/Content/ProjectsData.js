@@ -2,7 +2,7 @@ const ProjectsData = [
     {
         id: 0,
         projectTitle: "MERN Movie App",
-        projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        projectDescription: "Movie App built on MERN stack which displays trending, popular and top rated movies, along with filtering movies using key word search and genre search. Providing all information about movies like description, IMDB ratings etc.",
         projectsTags: [
             "ReactJS",
             "NodeJS",
@@ -16,7 +16,7 @@ const ProjectsData = [
     {
         id: 1,
         projectTitle: "COVID - 19 Tracker",
-        projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        projectDescription: "Developed a web application which gathers data from around the world using third party APIs and displays key details such as total confirmed, active, death and recovered cases, along with infographics of the data depicting trends over time.",
         projectsTags: [
             "HTML",
             "CSS",
@@ -31,7 +31,7 @@ const ProjectsData = [
     {
         id: 2,
         projectTitle: "Multiplayer Tic-Tac-Toe Game",
-        projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        projectDescription: "Developed a real-time multiplayer tic-tac-toe game on HTML, CSS, JavaScript, NodeJS, ExpressJS, Socket.io and      MongoDB.",
         projectsTags: [
             "HTML",
             "CSS",
@@ -46,7 +46,7 @@ const ProjectsData = [
     {
         id: 3,
         projectTitle: "ARCs '20 Promotional Website",
-        projectDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        projectDescription: "IEEECS-VIT's flagship event ARCs '20 promotional website providing exceptional digital experience.",
         projectsTags: [
             "HTML",
             "CSS",

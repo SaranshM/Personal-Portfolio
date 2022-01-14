@@ -18,19 +18,23 @@ const OtherProjects = () => {
                         <div className = "other-projects-row">
                             {arr.map((obj) => {
                                 return (
-                                    <a href = {obj.projectLink} className = "other-projects-card-link">
+                                    <a href = {obj.projectLink} className = "other-projects-card-link" target = "_blank">
                                         <div className = "other-projects-card">
                                             <div className = "card-header">
                                                 <div className = "card-header-icon-div">
                                                     <img src = {Folder} className = "cards-header-icon" />
                                                 </div>
                                                 <div className = "card-header-icon-div">
-                                                    <a href = {obj.projectGithubLink} className = "card-header-icon-a">
+                                                    <a href = {obj.projectGithubLink} className = "card-header-icon-a" target = "_blank">
                                                         <img src = {Github} className = "cards-header-icon" />
                                                     </a>
-                                                    <a href = {obj.projectLink} className = "card-header-icon-a">
-                                                        <img src = {Link} className = "cards-header-icon" />
-                                                    </a>
+                                                    {obj.projectLinkExist ? (
+                                                        <a href = {obj.projectLink} className = "card-header-icon-a" target = "_blank">
+                                                            <img src = {Link} className = "cards-header-icon" />
+                                                        </a>
+                                                    ) : (
+                                                        ""
+                                                    )}
                                                 </div>
                                             </div>
                                             <div className = "other-projects-content">

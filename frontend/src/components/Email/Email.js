@@ -10,7 +10,7 @@ const Email = () => {
     return (
         <div className = "email__wrap">
             <div className = "email">
-                <a href = "#">saranshmehta96@gmail.com</a>
+                <a href = "mailto:saranshmehta96@gmail.com">saranshmehta96@gmail.com</a>
             </div>
             <div className = "line"></div>
         </div>

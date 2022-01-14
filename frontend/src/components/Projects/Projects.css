@@ -18,6 +18,8 @@
     font-size: 1.7vw;
     color: #DCE1DE;
     letter-spacing: 3px;
+    font-weight: bold;
+
 }
 
 .projects-line {
@@ -326,8 +328,8 @@
         justify-content: center;
         width: 10vw;
         align-items: center;
-        margin-left: 0%;
-        margin: 0 auto;
+        margin: -3% auto;
+        margin-bottom: -50px;
     }
 
 
@@ -337,6 +339,46 @@
 
     .project-1-details-5 {
         margin-bottom: -3%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .project-1-img {
+        width:100%;
+        height: auto;
+        margin-left: -1.5%;
+    }
+
+    .project-1-details-3, .tag {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .project-1-details-3, .tag {
+        font-size: 3vw;
+    }
+
+    .project-1-details-1 {
+        font-size: 2.7vw;
+        font-weight: bold;
+        color: #36c275;
+        letter-spacing: 1px;
+        margin-bottom: 3%;
+    }
+    
+    .project-1-details-2 {
+        font-size: 4vw;
+        font-weight: bold;
+        color: #DCE1DE;
+        letter-spacing: 1px;
+        margin-bottom: 3%;
+    }
+
+    .project-1 {
+        margin-left: 4%;
+        width: 100%;
     }
 }
 

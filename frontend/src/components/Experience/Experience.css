@@ -19,6 +19,8 @@
     font-size: 1.7vw;
     color: #DCE1DE;
     letter-spacing: 3px;
+    font-weight: bold;
+
 }
 
 .exp-line {
@@ -227,5 +229,58 @@
 
     .exp-bullets {
         margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    .exp-details-1, .exp-details-2, .exp-point {
+        font-size: 3vw;
+    }
+
+    .exp-company.current {
+        font-size: 3.5vw;
+    }
+
+    .exp-company {
+        font-size: 3vw;
+    }
+
+    .exp-companies {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .exp__wrap {
+        width: 100%;
+        margin-top: 27%;
+        margin: 30% auto 0 auto;
+        margin-left: 5.5%;
+    }
+
+    .exp-header-1 {
+        color: #36c275;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+    
+    .exp-header-2 {
+        font-size: 4vw;
+        color: #DCE1DE;
+        letter-spacing: 3px;
+    }
+
+    .exp-details-1, .exp-details-2, .exp-point {
+        font-size: 3.5vw;
+    }
+
+    .exp-company.current {
+        font-size: 4.5vw;
+    }
+
+    .exp-company {
+        font-size: 4vw;
     }
 }

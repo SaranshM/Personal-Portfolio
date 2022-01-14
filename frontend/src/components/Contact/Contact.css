@@ -22,6 +22,7 @@
     font-size: 1.7vw;
     color: #DCE1DE;
     letter-spacing: 3px;
+    font-weight: bold;
 }
 
 .contact-line {
@@ -95,5 +96,51 @@
         color: #DCE1DEcc;
         letter-spacing: 3px;
         margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-content-1 {
+        font-size: 9vw;
+        color: #DCE1DE;
+        letter-spacing: 3px;
+        margin-bottom: 5%;
+    }
+    
+    .contact-content-2 {
+        font-size: 3vw;
+        color: #DCE1DEcc;
+        letter-spacing: 3px;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contact-header-1 {
+        color: #36c275;
+        font-weight: bold;
+        font-size: 4vw;
+    }
+    
+    .contact-header-2 {
+        font-size: 3.5vw;
+        color: #DCE1DE;
+        letter-spacing: 4px;
+    }
+
+    .contact-content-1 {
+        font-size: 11vw;
+        color: #DCE1DE;
+        letter-spacing: 3px;
+        margin-bottom: 7%;
+        margin-top: 5%;
+    }
+    
+    .contact-content-2 {
+        font-size: 3.5vw;
+        color: #DCE1DEcc;
+        letter-spacing: 2px;
+        margin-bottom: 8%;
+        line-height: 150%;
     }
 }

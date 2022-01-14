@@ -17,9 +17,9 @@ const Contact = () => {
                 <hr className = "contact-line"/>
             </div>
             <h1 className = "contact-content-1">Get In Touch</h1>
-            <h1 className = "contact-content-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+            <h1 className = "contact-content-2">My inbox is open for new opportunities and I'll be sure to get back to you!</h1>
             <a href = "mailto:saranshmehta96@gmail.com">
-                <Button width = {window.innerWidth > 550 ? "15%" : "30%"} padding = {window.innerWidth > 550 ? "1%" : "3%"} fontSize = {window.innerWidth > 550 ? "1.2vw" : "2vw"}>Say Hello</Button>
+                <Button width = {window.innerWidth > 550 ? "15%" : window.innerWidth > 375 ? "30%" : "40%"} padding = {window.innerWidth > 550 ? "1%" : window.innerWidth > 375 ? "3%" : "4.5%"} fontSize = {window.innerWidth > 550 ? "1.2vw" : window.innerWidth > 375 ? "2vw" : "3vw"}>Say Hello</Button>
             </a>
         </div>
     )

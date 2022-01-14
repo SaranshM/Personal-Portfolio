@@ -15,6 +15,7 @@ import Mongo from '../../images/mongo.png'
 import PHP from '../../images/php.png'
 import MYSQL from '../../images/mysql.png'
 import Git from '../../images/git.png'
+import AboutData from '../../Content/AboutData';
 
 
 const About = () => {
@@ -27,9 +28,16 @@ const About = () => {
             </div>
             <div className = "about-body">
                 <div className = "about-text">
-                    <p className = "about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem.</p><br/>
+                    {/* <p className = "about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem.</p><br/>
                     <p className = "about-para">Fermentum et sollicitudin ac orci phasellus. Nulla facilisi cras fermentum odio eu feugiat. Et tortor consequat id porta nibh venenatis.</p><br/>
-                    <p className = "about-para">Fermentum et sollicitudin ac orci phasellus. Nulla facilisi cras fermentum odio eu feugiat. Et tortor consequat id porta nibh venenatis.</p><br/>
+                    <p className = "about-para">Fermentum et sollicitudin ac orci phasellus. Nulla facilisi cras fermentum odio eu feugiat. Et tortor consequat id porta nibh venenatis.</p><br/> */}
+                    {AboutData.map((para) => {
+                        return (
+                            <React.Fragment>
+                                <p className = "about-para">{para}</p><br />
+                            </React.Fragment>
+                        )
+                    })}
                     <p className = "about-para">I am proficient in the following technologies:</p>
                     <table className = "about-table">
                         <tr>

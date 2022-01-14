@@ -10,13 +10,13 @@ const SocialMedia = () => {
     return (
         <div className = "social-media">
             <div className = "icons">
-                <a href = "#" className = "icon">
+                <a href = "https://github.com/SaranshM" className = "icon" target = "_blank">
                     <img src={Github}/>
                 </a>
-                <a href = "#" className = "icon">
+                <a href = "https://www.instagram.com/__saranshmehta__/" className = "icon" target = "_blank">
                     <img src={Instagram}/>
                 </a>
-                <a href = "#" className = "icon">
+                <a href = "https://www.linkedin.com/in/saransh-mehta-0802/" className = "icon" target = "_blank">
                     <img src={Linkedin}/>
                 </a>
             </div>

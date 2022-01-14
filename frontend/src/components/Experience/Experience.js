@@ -40,6 +40,11 @@ const Experience = () => {
                                     <li className = "exp-point">{point}</li>
                                 )
                             })}
+                            {ExperienceData[companyId].projectLink ? (
+                                <li className = "exp-point"><a href = {ExperienceData[companyId].projectLinkUrl} style = {{ textDecoration: "none", color: "#36c275"}} target = "_blank">{ExperienceData[companyId].projectLinkUrl}</a></li>
+                            ):(
+                                ""
+                            )}
                         </ul>
                     </div>
                 </div>

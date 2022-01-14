@@ -168,3 +168,44 @@
         font-size: 2vw;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .other-projects-card-link {
+        text-decoration: none;
+        width: 80%;
+    }
+
+    .other-projects-card {
+        height: 63vw;
+    }
+
+    .other-projects-content-1, .other-projects-content-2, .other-projects-content-3-text {
+        font-size: 3vw;
+    }
+
+    .cards-header-icon {
+        transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .other-projects-content-1, .other-projects-content-2, .other-projects-content-3-text {
+        font-size: 3.5vw;
+    }
+
+    .other-projects-card {
+        height: 71vw;
+    }
+
+    .other-projects-header {
+        font-size: 4vw;
+        color: #DCE1DE;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+    .other-projects-card-link {
+        margin-left: 5%;
+    }
+}
