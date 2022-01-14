@@ -1,15 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Contact.css';
 import Logo from '../Logo/Logo';
 import ProjectsData from '../../Content/ProjectsData';
 import Github from '../../images/github.png';
 import Link from '../../images/link.png';
 import Button from '../../UI/Button/Button';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
 
+    useEffect(() => {
+        Aos.init({
+            duration: 600
+        })
+    }, [])
+
     return (
-        <div className = "contact__wrap">
+        <div className = "contact__wrap"  data-aos = "fade-up">
             <div className = "contact-header">
                 <hr className = "contact-line first"/>
                 <span className = "contact-header-1">4.</span>&nbsp;&nbsp;&nbsp;

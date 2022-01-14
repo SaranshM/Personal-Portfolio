@@ -1,24 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Projects.css';
 import Logo from '../Logo/Logo';
 import Button from '../../UI/Button/Button';
 import ProjectsData from '../../Content/ProjectsData';
 import Github from '../../images/github.png';
 import Link from '../../images/link.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
 
+    useEffect(() => {
+        Aos.init({
+            duration: 600
+        })
+    }, [])
+
     return (
         <div className = "projects__wrap">
-            <div className = "projects-header">
-                <span className = "projects-header-1">2.</span>&nbsp;&nbsp;&nbsp;
+            <div className = "projects-header" data-aos = "fade-up">
+                <span className = "projects-header-1">3.</span>&nbsp;&nbsp;&nbsp;
                 <span className = "projects-header-2">Projects</span>
                 <hr className = "projects-line"/>
             </div>
             <div className = "projects-body">
                 {ProjectsData.map((obj) => {
                     return obj.id % 2 == 0 || window.innerWidth <= 550 ? (
-                        <div className = "project-1">
+                        <div className = "project-1"  data-aos = "fade-up">
                             <div className = "project-1-image">
                                     <img src = {obj.projectImage} className = "project-1-img"/>  
                             </div>
@@ -44,7 +52,7 @@ const Projects = () => {
                             </div>
                         </div>
                     ) : (
-                        <div className = "project-1 left">
+                        <div className = "project-1 left"  data-aos = "fade-up">
                             <div className = "project-1-details left">
                                 <div className = "project-1-details-1 left">Featured Project</div>
                                 <div className = "project-1-details-2 left">{obj.projectTitle}</div>

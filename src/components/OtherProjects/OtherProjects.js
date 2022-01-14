@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './OtherProjects.css';
 import Logo from '../Logo/Logo';
 import Button from '../../UI/Button/Button';
@@ -6,8 +6,16 @@ import OtherProjectsData from '../../Content/OtherProjectsData';
 import Github from '../../images/github.png';
 import Link from '../../images/link.png';
 import Folder from '../../images/folder.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const OtherProjects = () => {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 600
+        })
+    }, [])
 
     return (
         <div className = "other-projects__wrap">
@@ -18,7 +26,7 @@ const OtherProjects = () => {
                         <div className = "other-projects-row">
                             {arr.map((obj) => {
                                 return (
-                                    <a href = {obj.projectLink} className = "other-projects-card-link" target = "_blank">
+                                    <a href = {obj.projectLink} className = "other-projects-card-link" target = "_blank"  data-aos = "fade-up">
                                         <div className = "other-projects-card">
                                             <div className = "card-header">
                                                 <div className = "card-header-icon-div">
@@ -55,6 +63,7 @@ const OtherProjects = () => {
                         </div>
                     )
                 })}
+                <div id = "contact"></div>
             </div>
         </div>
     )

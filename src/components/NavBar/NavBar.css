@@ -24,12 +24,17 @@
     flex: 3;
 }
 
+.link-wrap, .hamburger-links {
+    cursor: pointer;
+}
+
 .link {
     text-decoration: none;
     font-size: 1.2vw;
     transition-delay: 0.2s;
     transition-duration: 0.2s;
     padding-bottom: 1vh;
+    cursor: pointer;
 }
 
 .link:hover {
@@ -53,10 +58,22 @@
     font-weight: bold;
 }
 
-.hamburger, .hamburger-menu {
+.hamburger {
     display: none;
 }
 
+.hamburger-menu {
+    margin-left: 100vw;
+    transition: visibility 500ms, margin-left 500ms;
+    visibility: none;
+    position: absolute;
+}
+
+.hamburger-links-wrap {
+    margin-left: 100vw;
+    transition: visibility 500ms, margin-left 500ms;
+    visibility: none;
+}
 
 
 @media screen and (max-width: 1100px) {
@@ -123,8 +140,8 @@
         opacity: 0;
     }
 
-    .hamburger-menu.on {
-        display: block;
+    .hamburger-menu {
+        visibility: hidden;
         position: fixed;
         top:0;
         bottom: 0;
@@ -134,6 +151,31 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 100vw;
+        transition: all 500ms;
+
+    }
+
+    .hamburger-links-wrap.on {
+        margin-left: 0vw;
+        transition: visibility 500ms, margin-left 500ms;
+        visibility: visible;
+    }
+
+    .hamburger-menu.on {
+        visibility: visible;
+        position: fixed;
+        top:0;
+        bottom: 0;
+        left:0;
+        right: 0;
+        background-color: rgb(0,0,0,0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0vw;
+        transition: all 500ms;
+        backdrop-filter: blur(4px);
     }
 
     .link {

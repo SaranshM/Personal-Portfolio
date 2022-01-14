@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './About.css';
 import Logo from '../Logo/Logo';
 import Button from '../../UI/Button/Button';
@@ -16,18 +16,26 @@ import PHP from '../../images/php.png'
 import MYSQL from '../../images/mysql.png'
 import Git from '../../images/git.png'
 import AboutData from '../../Content/AboutData';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 600
+        })
+    }, [])
+
     return (
-        <div className = "about__wrap">
+        <div className = "about__wrap"  data-aos = "fade-up">
             <div className = "about-header">
                 <span className = "about-header-1">1.</span>&nbsp;&nbsp;&nbsp;
                 <span className = "about-header-2">About</span>
                 <hr className = "about-line"/>
             </div>
-            <div className = "about-body">
-                <div className = "about-text">
+            <div className = "about-body"  >
+                <div className = "about-text" >
                     {/* <p className = "about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem.</p><br/>
                     <p className = "about-para">Fermentum et sollicitudin ac orci phasellus. Nulla facilisi cras fermentum odio eu feugiat. Et tortor consequat id porta nibh venenatis.</p><br/>
                     <p className = "about-para">Fermentum et sollicitudin ac orci phasellus. Nulla facilisi cras fermentum odio eu feugiat. Et tortor consequat id porta nibh venenatis.</p><br/> */}
@@ -112,7 +120,7 @@ const About = () => {
                                 </div>
                             </td>
                             <td>
-                                <div className = "lang-cell">
+                                <div className = "lang-cell" id = "exp">
                                     <img src = {Git}></img>&nbsp;&nbsp;
                                     <p className = "lang-text">Git</p>
                                 </div>
@@ -125,6 +133,7 @@ const About = () => {
                     <div className = "about-box"></div>
                 </div>
             </div>
+            <div id = "exp2"></div>
         </div>
     )
 }

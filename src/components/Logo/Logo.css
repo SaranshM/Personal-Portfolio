@@ -1,5 +1,6 @@
 .logo-wrap {
     flex: 3;
+    cursor: pointer;
 }
 
 .logo {

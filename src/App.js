@@ -23,6 +23,7 @@ function App() {
         <Loader>Loading</Loader>
       ):(
         <React.Fragment>
+          <div id = "intro"></div>
           <NavBar></NavBar>
           <Introduction></Introduction>
           <SocialMedia></SocialMedia>

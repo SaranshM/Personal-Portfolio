@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Experience.css';
 import Logo from '../Logo/Logo';
 import Button from '../../UI/Button/Button';
 import ExperienceData from '../../Content/ExperienceData';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Experience = () => {
+
+    useEffect(() => {
+        Aos.init({
+            duration: 600
+        })
+    }, [])
     
     const [companyId, setCompanyId] = useState(0);
 
@@ -14,7 +22,7 @@ const Experience = () => {
     }
 
     return (
-        <div className = "exp__wrap">
+        <div className = "exp__wrap" data-aos = "fade-up">
             <div className = "exp-header">
                 <span className = "exp-header-1">2.</span>&nbsp;&nbsp;&nbsp;
                 <span className = "exp-header-2">Experience</span>
@@ -41,7 +49,7 @@ const Experience = () => {
                                 )
                             })}
                             {ExperienceData[companyId].projectLink ? (
-                                <li className = "exp-point"><a href = {ExperienceData[companyId].projectLinkUrl} style = {{ textDecoration: "none", color: "#36c275"}} target = "_blank">{ExperienceData[companyId].projectLinkUrl}</a></li>
+                                <li className = "exp-point" id = "projects"><a href = {ExperienceData[companyId].projectLinkUrl} style = {{ textDecoration: "none", color: "#36c275"}} target = "_blank">{ExperienceData[companyId].projectLinkUrl}</a></li>
                             ):(
                                 ""
                             )}
