@@ -1,7 +1,7 @@
 const IntroductionData = [
-    "I am an aspiring",
-    "Software Developer",
-    "I am a Full-Stack Web Developer specializing in building web solutions. Currently, I am a final year B.Tech student at VIT Vellore pursuing Computer Science and Engineering."
-]
+  "I am an aspiring",
+  "Software Developer",
+  "I am a Full-Stack Developer specializing in building web and app solutions for real-world business problems. Currently, I am a first year student at the University of Alberta pursuing M.Eng ECE specializing in Software Engineering and Intelligent Systems.",
+];
 
-export default IntroductionData
+export default IntroductionData;

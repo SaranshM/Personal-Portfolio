@@ -1,59 +1,57 @@
 .email__wrap {
-    position: fixed;
-    bottom: 0;
-    right:-2vw;
+  position: fixed;
+  bottom: 0;
+  right: -2vw;
 }
 
 .email {
-    transform: rotate(90deg);
-    transform-origin: right, top;
-    -ms-transform: rotate(90deg);
-    -ms-transform-origin:right, top;
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin:right, top;
-    margin-bottom: 17vh;
-    position: relative;
-    bottom: 0;
-    color: #36c275;
-    transition: all 0.2s;
-    margin-top: 20px;
-    /* font-size: 1.5vw; */
+  transform: rotate(90deg);
+  transform-origin: right, top;
+  -ms-transform: rotate(90deg);
+  -ms-transform-origin: right, top;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin: right, top;
+  margin-bottom: 21vh;
+  position: relative;
+  bottom: 0;
+  color: #36c275;
+  transition: all 0.2s;
+  margin-top: 20px;
+  /* font-size: 1.5vw; */
 }
 
 .email:hover {
-    bottom: 1vh;
-    
+  bottom: 1vh;
 }
 
 .email a {
-    text-decoration: none;
-    color: #36c275;
-    letter-spacing: 2px;
-    font-weight: bold;
+  text-decoration: none;
+  color: #36c275;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .line {
-    width:3px;
-    height: 150px;
-    background-color: #DCE1DE88;
-    margin: 0 auto;
+  width: 3px;
+  height: 150px;
+  background-color: #dce1de88;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1400px) {
-    .email__wrap {
-        right: -4vw;
-    }
+  .email__wrap {
+    right: -4vw;
+  }
 }
 
 @media screen and (max-width: 1100px) {
-    .email__wrap {
-        right: -7vw;
-    }
-
+  .email__wrap {
+    right: -7vw;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .email__wrap {
-        display: none;
-    }
+  .email__wrap {
+    display: none;
+  }
 }
