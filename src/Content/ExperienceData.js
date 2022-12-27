@@ -36,7 +36,7 @@ const ExperienceData = [
     companyName: "MediaKrafts",
     jobRole: "Web Developer",
     startDate: "January 2020",
-    endDate: "April 2020",
+    endDate: "March 2020",
     bulletPoints: [
       "Wrote clean HTML, CSS and JavaScript code, integrated designs, extensions and third party APIs according to the project's needs.",
       "Increased responsivity of the website for most devices by writing responsive code in CSS.",
