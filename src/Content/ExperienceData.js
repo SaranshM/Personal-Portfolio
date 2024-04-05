@@ -1,22 +1,35 @@
 const ExperienceData = [
   {
     id: 0,
-    companyName: "Jify",
-    jobRole: "Software Developer",
-    startDate: "April 2022",
+    companyName: "Peyto Creative",
+    jobRole: "Full Stack Software Developer Intern",
+    startDate: "November 2023",
     endDate: "Present",
     bulletPoints: [
-      "Developing a fin-tech mobile application using TypeScript, AWS, DynamoDB and Serverless to provide earned-wage access solutions to corporates.",
-      "Leading technical integrations of multiple Human Resource Systems to facilitate onboarding of employees on the application.",
-      "Leading the software solutioning of financial investment features such as real-time digital gold transaction.",
-      "Integrating Razorpay payment gateway on to the application for a smooth checkout experience.",
-      "Building applications, email schedulers and scripts for internal business management.",
+      "Building a full stack asset management tool using React.js, Node.js, TypeScript and PostgreSQL using the principles of Clean Architecture and Domain-Driven Design.",
+      "Authoring comprehensive documentation and reports on software requirements, API specifications and ERD."
     ],
     projectLink: false,
     projectLinkUrl: "",
   },
   {
     id: 1,
+    companyName: "Jify",
+    jobRole: "Software Developer",
+    startDate: "April 2022",
+    endDate: "November 2023",
+    bulletPoints: [
+      "Developed and maintained a fin-tech mobile application using TypeScript, AWS, DynamoDB and Serverless to provide earned-wage access solutions to corporates.",
+      "Led technical integrations of multiple Human Resource Systems to facilitate onboarding of employees on the application.",
+      "Led the software solutioning of financial investment features such as real-time digital gold transaction.",
+      "Integrated Razorpay payment gateway on to the application for a smooth checkout experience.",
+      "Built applications, email schedulers and scripts for internal business management.",
+    ],
+    projectLink: false,
+    projectLinkUrl: "",
+  },
+  {
+    id: 2,
     companyName: "OnTribe",
     jobRole: "Co-Founder/CTO",
     startDate: "February 2020",
@@ -32,7 +45,7 @@ const ExperienceData = [
     projectLinkUrl: "https://www.ontribe.in/",
   },
   {
-    id: 2,
+    id: 3,
     companyName: "MediaKrafts",
     jobRole: "Web Developer",
     startDate: "January 2020",
