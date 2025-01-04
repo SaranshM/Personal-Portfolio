@@ -2,12 +2,14 @@ const ExperienceData = [
   {
     id: 0,
     companyName: "Peyto Creative",
-    jobRole: "Full Stack Software Developer Intern",
+    jobRole: "Full Stack Software Developer (Part time)",
     startDate: "November 2023",
-    endDate: "Present",
+    endDate: "December 2024",
     bulletPoints: [
-      "Building a full stack asset management tool using React.js, Node.js, TypeScript and PostgreSQL using the principles of Clean Architecture and Domain-Driven Design.",
-      "Authoring comprehensive documentation and reports on software requirements, API specifications and ERD."
+      "Collaborated with stakeholders to define project scope, gather requirements, and deliver customized inspection management solutions using React, Redux, Node, and PostgreSQL.",
+      "Owned the full software development lifecycle, ensuring alignment with business needs, and conducted thorough testing and deployment.",
+      "Managed project timelines and risks, ensuring the solution was delivered on time and met quality standards.",
+      "Authored comprehensive documentation and reports on software requirements, API specifications and ERD."
     ],
     projectLink: false,
     projectLinkUrl: "",
@@ -19,11 +21,11 @@ const ExperienceData = [
     startDate: "April 2022",
     endDate: "November 2023",
     bulletPoints: [
-      "Developed and maintained a fin-tech mobile application using TypeScript, AWS, DynamoDB and Serverless to provide earned-wage access solutions to corporates.",
-      "Led technical integrations of multiple Human Resource Systems to facilitate onboarding of employees on the application.",
-      "Led the software solutioning of financial investment features such as real-time digital gold transaction.",
-      "Integrated Razorpay payment gateway on to the application for a smooth checkout experience.",
-      "Built applications, email schedulers and scripts for internal business management.",
+      "Developed distributed, scalable microservices on AWS and Serverless, ensuring high availability and reliability for core financial services.",
+      "Led HRMS integrations for 15+ corporations, working closely with corporate clients to deliver customized financial solutions to over 1 million employees.",
+      "Acted as a trusted advisor to corporate clients, translating technical concepts into business-friendly language to facilitate decision-making.",
+      "Architected the “Digital Gold Trading” project, integrating real-time financial investment features with a focus on data security.",
+      "Implemented error monitoring and debugging for microservices using Sentry, improving incident response time by 30%."
     ],
     projectLink: false,
     projectLinkUrl: "",

@@ -18,6 +18,7 @@ import Git from "../../images/git.png";
 import Typescript from "../../images/typescript.png";
 import Serverless from "../../images/serverless.png";
 import AWS from "../../images/aws.png";
+import Azure from "../../images/azure.png"
 import AboutData from "../../Content/AboutData";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -38,9 +39,6 @@ const About = () => {
       </div>
       <div className="about-body">
         <div className="about-text">
-          {/* <p className = "about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem.</p><br/>
-                    <p className = "about-para">Fermentum et sollicitudin ac orci phasellus. Nulla facilisi cras fermentum odio eu feugiat. Et tortor consequat id porta nibh venenatis.</p><br/>
-                    <p className = "about-para">Fermentum et sollicitudin ac orci phasellus. Nulla facilisi cras fermentum odio eu feugiat. Et tortor consequat id porta nibh venenatis.</p><br/> */}
           {AboutData.map((para) => {
             return (
               <React.Fragment>
@@ -151,7 +149,10 @@ const About = () => {
                 </div>
               </td>
               <td>
-                <div className="lang-cell" id="exp"></div>
+                <div className="lang-cell" id="exp">
+                <img src={Azure}></img>&nbsp;&nbsp;
+                <p className="lang-text">Microsoft Azure</p>
+                </div>
               </td>
             </tr>
           </table>

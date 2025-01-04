@@ -3,7 +3,7 @@ import './Introduction.css';
 import Logo from '../Logo/Logo';
 import Button from '../../UI/Button/Button';
 import IntroductionData from '../../Content/IntroductionData';
-import Resume from '../../Saransh-Mehta-Resume.pdf';
+import Resume from '../../Saransh Mehta Resume.pdf';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
